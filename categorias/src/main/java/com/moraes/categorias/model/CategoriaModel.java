@@ -18,6 +18,9 @@ public class CategoriaModel {
     @Column(name = "descricao")
     private String descricao;
 
+    public CategoriaModel() {
+    }
+
     public Long getId() {
         return id;
     }
